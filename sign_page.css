@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(signup-light.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    position: fixed;
+}
+.logo-sec{
+    width: 100%;
+    height: 166px;
+    position: absolute;
+    top: 0;
+}
+ 
+.logo-sec .top-logo{
+    width: 100%;
+    height: 166px;
+    padding-top: 60px;
+}
+.logo-sec .top-logo .logo{
+    width: 100%;
+    height: 20px;
+    margin-top: 26px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.form-sec{
+    width: 100%;
+    height: 823px;
+}
+.form-heading{
+    width: 460px;
+    margin: auto;
+    text-align: center;
+}
+.form-heading h1{
+    margin-bottom: 16px;
+    font-size: 3.4rem;
+    font-weight: 600;
+
+}
+.form-heading p{
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.main-form{
+    max-width: 408px;
+    height: 500px;
+    margin: auto;
+    padding: 24px 44px 44px 44px;
+    background-color: white;
+    margin-top: 28px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.main-form form input{
+    padding: 12px 17px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 1rem;
+    height: 49px;
+    max-width: 319px;
+    outline: none;
+}
+.main-form form .span{
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+.main-form form .span p{
+    position: absolute;
+    font-size: 0.61rem;
+    right: 0;
+    font-weight: 600;
+}
+.main-form form input::placeholder{
+    color: #5d5d66;
+    font-style: italic;
+}
+
+.main-form form button{
+    width: 100%;
+    height: 62px;
+    font-size: 1.01rem;
+    font-weight: 600;
+    color: white;
+    padding: 20px 40px;
+    background-color: #6e4bf9;
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.main-form form button:hover{
+    background-color: #7e5ffa;
+}
+.main-form form .privacy p{
+    font-size: 0.61rem;
+    text-align: center;
+    margin-top: 16px;
+    line-height: 15px;
+    margin-bottom: 12px;
+}   
+form .privacy p a{
+    text-decoration: none;
+}
+.additional{
+    max-width: 320px;
+    height: 75px;
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+    font-size: .71rem;
+}
+.additional p{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.additional p a{
+    color: black;
+}
+.additional p a:hover{
+    text-decoration: none;
+}

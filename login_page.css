@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9FA;
+}
+
+
+
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #F9F9FA;
+}
+
+.top-header{
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-side{
+    width: 700px;
+    height: 100%;
+    display: flex;
+}
+.full-logo{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.full-logo p{
+    position: absolute;
+    bottom: 23%;
+    right: 2%;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 0.5rem;
+}
+
+.full-logo img{
+    width: 100%;
+    height: auto;
+    
+}
+.menu{
+    width: auto;
+    height: 100%;
+    
+}
+.menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 30px;
+}
+.menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.menu ul li a span{
+    font-weight: 400;
+    color: #9e9999;
+}
+.menu ul li a span:hover{
+    color: rgb(91, 90, 90);
+}
+.menu ul li i{
+    margin-top: 5px;
+    margin-left: 3px;
+    height: auto;
+    width: auto;
+}
+
+
+.menu ul li a,i{
+    color: #c4c4c4;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.sign-in-side{
+    width: 300px;
+    height: 100%;
+    
+}
+.sign-in-side ul{
+    width: auto;
+    display: flex;
+    padding: 0%;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    margin-top: 21px;
+    list-style: none;
+}
+.sign-in-side ul li{
+    /* margin-top: 7px; */
+    margin-right: 10px;
+}
+.sign-in-side ul li a{
+    text-decoration: none;
+    color: #8e8f97;
+    font-size: 1rem;
+}
+.sign-in-side ul li a span{
+    font-weight: 400;
+    color: #a1a2a3;
+    
+}
+.sign-in-side ul li a span:hover{
+    color: rgb(97, 97, 97);
+}
+
+.sign-in-side ul li button{
+    font-weight: 600;
+    height: 100%;
+    padding: 5px 13px;
+    border-radius: 3px;
+    background-color:transparent;
+    border: 0.51px solid #8E959C;
+    color: #8E959C;
+}
+.sign-in-side ul li button:hover{
+    background-color: #6A9E20;
+    color: white;
+}
+.menu-bar i{
+    display: none;
+    font-size: 1.3rem;
+    margin: 25px 20px;
+    cursor: pointer;
+}
+.short-logo{
+    display: none;
+    width:  70px;
+    height: 100%;
+    text-align: center;
+}
+.short-logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+section{
+    height: auto;
+    width: 100%;
+}
+.main-box{
+    height:auto;
+    width: 100%;
+    background-color: #F9F9FA;
+    
+}
+
+.main-box .container-1{
+    max-width: 1300px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.form{
+    width: 491px;
+    margin: auto;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 138px;
+}
+.form .heading{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #18527C;
+    padding-bottom: 38px;
+}
+.heading h1{
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+.form .form-div{
+    height: auto;
+    width: 100%;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    background-color: white;
+
+}
+
+.email{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input{
+    width: 420px;
+    height: 55px;
+    border-radius: 3px;
+    /* border: 1px solid black; */
+    padding: 14px 12px;
+    outline: none;
+    box-shadow: inset 1px 3px 8px rgba(0, 0, 0, 0.07);
+
+}
+
+.email p{
+    margin-bottom: 6px;
+    color: #4A4A4A;
+}
+.pass p{
+    margin-bottom: 6px;
+    color: #4A4A4A;
+}
+
+.identity-check{
+    width: 100%;
+    height: auto;
+    /* background-color: #4A4A4A; */
+    margin-top: 33px;
+    
+}
+.identity-check p{
+    margin-bottom: 3px;
+    color: #4A4A4A;
+}
+.identity-check .check{
+    height: 75px;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+}
+.identity-check .check input{
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+
+.identity-check .check span{
+    color: #2e2e2e;
+}
+.button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 24px 48px;
+    margin-top: 23px;
+    font-size: 1.2rem;
+    color: white;background-color: #76ae26;
+}
+.p-last{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.p-last a{
+    text-decoration: none;
+    color: #8b8989;
+}
+.p-last a:hover{
+    text-decoration:underline;
+    color: rgb(89, 165, 190);
+}
+
+.anchor{
+    height: auto;
+    width: 100%;
+    margin-top: 45px;
+    /* margin-bottom: ; */
+    padding: 25px 68px;
+    /* background-color: #8b8989; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.anchor a h5{
+    font-weight: 400;
+    font-size: 1.36rem;
+    color: rgb(89, 165, 190);
+}
+.anchor a p{
+    color: #8b8989;
+}
+.anchor a{
+    text-decoration: none;
+    
+}
+.anchor a:hover h5{
+    text-decoration: underline;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:750px){
+    .menu{
+        display: none;
+    }
+    .sign-in-side{
+        display: none;
+    }
+    .menu-bar i{
+        display: block;
+        color: black;
+    }
+    .logo-side{
+        padding-left: 20px;
+    }
+    .full-logo{
+        width: 190px;
+    }
+    .full-logo p{
+        bottom: 28%;
+    }
+    .form{
+        max-width: 92vw;
+    }
+    input{
+        max-width: 80vw;
+    }
+    .short-logo{
+        display: none;
+    }
+}
+@media screen and (min-width:750px) and (max-width:1080px){
+    .full-logo{
+        display: none;
+    }
+    .logo-side{
+        width: 600px;
+    }
+    .short-logo{
+        display: block;
+    }
+    .menu ul{
+        margin-left: 10px;
+    }
+    
+    .menu ul li a span{
+        font-size: 0.89rem;
+    }
+    .sign-in-side ul li a span{
+        font-size: 0.79rem;
+    }
+    .sign-in-side ul li button{
+        font-weight: 500;
+        padding: 6px 10px;
+        
+    }
+}
